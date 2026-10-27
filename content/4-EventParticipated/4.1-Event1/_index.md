@@ -96,7 +96,7 @@ The architecture included:
 
 The architecture illustrated how different software components can work together to build an integrated AI automation system.
 
-![AI Agent Architecture at Buildrathon Kickoff]({{< relURL "images/events/buildrathon-kickoff.jpg" >}})
+![AI Agent Architecture at Buildrathon Kickoff](/fcj-workshop-template/images/Event/buildrathon-kickoff.jpg)
 
 *Figure 1. A technical presentation demonstrating the AI Agent architecture at Buildrathon Kickoff.*
 
