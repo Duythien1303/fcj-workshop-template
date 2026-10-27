@@ -148,14 +148,14 @@ Overall, the event highlighted the importance of continuous learning, practical 
 
 ### Photos from AWS Cloud and AI Day 2026 – HCMC Watch Party
 
-![AWS Watch Party]({{< relURL "images/Event/AIday.jpg" >}})
+![AWS Watch Party](/fcj-workshop-template/images/Event/AIday.jpg)
 
 *Figure 1. AWS Cloud and AI Day 2026 Watch Party held in Ho Chi Minh City.*
 
-![Technical Presentations]({{< relURL "images/Event/AIday1.jpg" >}})
+![Technical Presentations](/fcj-workshop-template/images/Event/AIday1.jpg)
 
 *Figure 2. Attendees following technical presentations on Cloud Computing and Artificial Intelligence.*
 
-![Event Invitation]({{< relURL "images/Event/themoi.jpg" >}})
+![Event Invitation](/fcj-workshop-template/images/Event/themoi.jpg)
 
 *Figure 3. Official invitation to the AWS Cloud and AI Day 2026 – HCMC Watch Party.*
