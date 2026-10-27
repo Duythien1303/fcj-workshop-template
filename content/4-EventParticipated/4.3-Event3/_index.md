@@ -144,10 +144,10 @@ Overall, the event provided valuable perspectives on the future of technology an
 
 ## 6. Event Photos
 
-![Group Photo with Dr. Werner]({{< relURL "images/Event/Fireside.jpg" >}})
+![Group Photo with Dr. Werner](/fcj-workshop-template/images/Event/Fireside.jpg)
 
 *Figure 1. Group photo with Dr. Werner Vogels during the Fireside Chat event in Ho Chi Minh City.*
 
-![Event Venue and Atmosphere]({{< relURL "images/Event/Fireside1.jpg" >}})
+![Event Venue and Atmosphere](/fcj-workshop-template/images/Event/Fireside1.jpg)
 
 *Figure 2. An overview of the event venue and atmosphere during the Fireside Chat with Dr. Werner Vogels.*
