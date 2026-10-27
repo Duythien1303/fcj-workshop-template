@@ -1,53 +1,125 @@
+
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-10-27
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
+# Events Participated
 
+## Overview
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+During my internship, I had the opportunity to participate in three technology events focusing on Cloud Computing, Artificial Intelligence (AI), software development, and emerging technology trends.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+These events provided valuable opportunities to expand my technical knowledge, gain insights from industry experts, explore real-world applications of modern technologies, and connect with professionals in the technology community.
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** Buildrathon Kickoff: Code the Future with CMC Global
+Each event offered a different learning experience, helping me develop a broader understanding of cloud-based solutions, AI-powered applications, and career opportunities in the IT industry.
 
-&emsp;**Date & Time:** 09:00, September 26, 2026  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+The following sections summarize the three events I attended.
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** AWS cloud and AI day HaNoi, Watch party HCM  
+## [4.1. Buildrathon Kickoff: Code the Future with CMC Global](4.1-Event1/)
 
-&emsp;**Date & Time:** 09:00, September 29, 2026  
+**Event Name:** Buildrathon Kickoff: Code the Future with CMC Global
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+**Date & Time:** September 26, 2026 | 09:00 AM
 
-&emsp;**Role:** Attendee  
+**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City, Vietnam
+
+**Role:** Attendee
+
+### Event Overview
+
+The Buildrathon Kickoff event brought together technology enthusiasts, students, and industry professionals to explore emerging developments in Cloud Computing, Generative AI, and Agentic AI.
+
+The program introduced the Buildrathon challenge and featured technical discussions, career guidance, and AI-related activities.
+
+One of the highlights was a presentation demonstrating how AI Agents can integrate with communication platforms such as Slack, APIs, memory systems, and automation tools to support real-world workflows.
+
+### Key Takeaways
+
+- Gained insights into AI Agent architectures and practical applications.
+- Explored the integration of AI systems with APIs and automation tools.
+- Learned more about emerging career opportunities in Cloud Computing and AI.
+- Developed a better understanding of how AI-powered solutions can address real-world challenges.
+
+[**Read more about Event 1 →**](4.1-Event1/)
 
 ---
 
-### [Event 3](4.3-Event3/)  
-&emsp;**Event Name:** AWS cloud and AI day HaNoi, Watch party HCM  
+## [4.2. AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party](4.2-Event2/)
 
-&emsp;**Date & Time:** 09:00, September 29, 2026  
+**Event Name:** AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+**Date & Time:** September 29, 2026 | 09:00 AM
 
-&emsp;**Role:** Attendee  
+**Location:** Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City, Vietnam
+
+**Role:** Attendee
+
+### Event Overview
+
+AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party provided an opportunity for technology enthusiasts in Ho Chi Minh City to follow presentations and discussions from the main AWS event in Hanoi.
+
+The program highlighted advances in Cloud Computing, Generative AI, Agentic AI, and modern software development.
+
+Through technical presentations and community discussions, participants could explore how AWS technologies and AI-powered solutions are transforming the development, deployment, and operation of modern applications.
+
+### Key Takeaways
+
+- Expanded knowledge of AWS Cloud services and AI technologies.
+- Learned about the development and potential applications of Agentic AI.
+- Explored modern software development approaches using AI.
+- Gained insights into cloud-based application architectures and industry trends.
+- Recognized the importance of continuous learning and professional networking.
+
+[**Read more about Event 2 →**](4.2-Event2/)
+
+---
+
+## [4.3. Fireside Chat with Dr. Werner Vogels](4.3-Event3/)
+
+**Event Name:** Fireside Chat with Dr. Werner Vogels
+
+**Date & Time:** September 29, 2026 | 09:00 AM
+
+**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ho Chi Minh City, Vietnam
+
+**Role:** Attendee
+
+**Special Guest:** Dr. Werner Vogels – Chief Technology Officer (CTO) of Amazon
+
+### Event Overview
+
+The Fireside Chat with Dr. Werner Vogels was a technology discussion featuring the CTO of Amazon.
+
+The event offered an opportunity to gain perspectives on the future of Cloud Computing, Artificial Intelligence, large-scale distributed systems, innovation, and technology leadership.
+
+The discussion highlighted the importance of strong engineering foundations, continuous learning, problem-solving skills, and adaptability in the rapidly evolving technology industry.
+
+The event also provided an opportunity for attendees to interact with members of the technology community and learn from the experience of a global technology leader.
+
+### Key Takeaways
+
+- Developed a broader understanding of large-scale distributed systems.
+- Explored the importance of scalability, reliability, and system design.
+- Gained insights into innovation and technology leadership.
+- Recognized the value of strong technical foundations and continuous improvement.
+- Gained inspiration for future professional development in Cloud Computing and Artificial Intelligence.
+
+[**Read more about Event 3 →**](4.3-Event3/)
+
+---
+
+## Overall Reflection
+
+Participating in these three events was a valuable part of my internship experience.
+
+Each event provided a different perspective on the technology industry, ranging from hands-on AI applications and cloud-based solutions to large-scale system architecture and professional development.
+
+The Buildrathon Kickoff introduced practical applications of AI Agents and automation systems. AWS Cloud and AI Day offered insights into emerging trends in Cloud Computing and Artificial Intelligence. Meanwhile, the Fireside Chat with Dr. Werner Vogels emphasized the importance of engineering principles, innovation, and continuous learning.
+
+Overall, these experiences helped broaden my technical knowledge, strengthen my interest in AI and Cloud Computing, and provide clearer direction for my future career development.
