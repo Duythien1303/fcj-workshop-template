@@ -93,7 +93,7 @@ Hệ thống được minh họa với những thành phần chính:
 
 Kiến trúc minh họa cách các thành phần phần mềm phối hợp để xây dựng một giải pháp AI phục vụ công việc thực tế.
 
-![Kiến trúc AI Agent tại Buildrathon Kickoff]({{< relURL "images/events/buildrathon-kickoff.jpg" >}})
+![Kiến trúc AI Agent tại Buildrathon Kickoff](/fcj-workshop-template/images/Event/buildrathon-kickoff.jpg)
 
 *Hình 1. Phần trình bày kiến trúc AI Agent tại sự kiện Buildrathon Kickoff.*
 
