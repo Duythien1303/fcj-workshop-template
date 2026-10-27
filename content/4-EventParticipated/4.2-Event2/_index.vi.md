@@ -137,18 +137,20 @@ Thông qua hình thức kết hợp giữa nội dung trực tuyến từ Hà N�
 Sự kiện cũng cho thấy tầm quan trọng của việc liên tục cập nhật công nghệ, phát triển kỹ năng thực hành và tham gia các cộng đồng chuyên môn.
 
 
+
 ## 6. Hình ảnh sự kiện
 
 ### Hình ảnh tại AWS Cloud and AI Day 2026 – HCMC Watch Party
 
-![AWS Watch Party]({{< relURL "images/Event/AIday.jpg" >}})
+![AWS Watch Party](/fcj-workshop-template/images/Event/AIday.jpg)
 
 *Hình 1. AWS Cloud and AI Day 2026 Watch Party tại TP.HCM.*
 
-![Theo dõi các phiên chia sẻ kỹ thuật]({{< relURL "images/Event/AIday1.jpg" >}})
+![Theo dõi các phiên chia sẻ kỹ thuật](/fcj-workshop-template/images/Event/AIday1.jpg)
 
 *Hình 2. Theo dõi các phiên chia sẻ về Cloud Computing và Artificial Intelligence.*
 
-![Thẻ mời sự kiện]({{< relURL "images/Event/themoi.jpg" >}})
+![Thẻ mời sự kiện](/fcj-workshop-template/images/Event/themoi.jpg)
 
 *Hình 3. Thẻ mời sự kiện.*
+
