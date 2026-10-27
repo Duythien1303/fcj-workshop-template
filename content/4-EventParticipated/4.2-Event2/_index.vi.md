@@ -1,125 +1,154 @@
 ---
-title: "Event 2"
-date: 2024-01-01
+title: "AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party"
+date: 2026-09-29
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## 1. Thông tin sự kiện
 
-### Mục Đích Của Sự Kiện
+| Thông tin | Chi tiết |
+|---|---|
+| **Tên sự kiện** | AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party |
+| **Ngày tổ chức** | 29/09/2026 |
+| **Địa điểm tham gia** | AWS Office, TP. Hồ Chí Minh |
+| **Địa điểm sự kiện chính** | JW Marriott Hotel Hanoi |
+| **Đơn vị tổ chức** | Amazon Web Services (AWS) |
+| **Hình thức** | Watch Party – Theo dõi trực tiếp các phiên trình bày từ Hà Nội và giao lưu tại TP.HCM |
+| **Chủ đề** | Cloud Computing, Generative AI, Agentic AI, Modern Application Development |
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## 2. Mục đích của sự kiện
 
-### Danh Sách Diễn Giả
+**AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** được tổ chức nhằm mang đến cơ hội tiếp cận những xu hướng và công nghệ mới nhất trong lĩnh vực điện toán đám mây và trí tuệ nhân tạo cho cộng đồng công nghệ tại TP. Hồ Chí Minh.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+Thông qua hình thức Watch Party, người tham gia có thể theo dõi các phiên chia sẻ chuyên môn từ sự kiện chính tại Hà Nội, đồng thời trao đổi và kết nối trực tiếp với cộng đồng AWS tại TP.HCM.
 
-### Nội Dung Nổi Bật
+Các mục tiêu chính bao gồm:
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- **Cập nhật xu hướng công nghệ:** Tìm hiểu sự phát triển của Cloud Computing, Generative AI và Agentic AI trong môi trường doanh nghiệp.
+- **Tiếp cận kiến thức chuyên môn:** Theo dõi các phiên chia sẻ từ chuyên gia AWS về xây dựng, triển khai và vận hành ứng dụng hiện đại.
+- **Khám phá ứng dụng AI thực tế:** Tìm hiểu cách AI Agents hỗ trợ tự động hóa, xử lý tác vụ và nâng cao hiệu quả vận hành.
+- **Tìm hiểu kiến trúc Cloud:** Mở rộng hiểu biết về các dịch vụ AWS và phương pháp xây dựng hệ thống có khả năng mở rộng.
+- **Kết nối cộng đồng:** Tạo điều kiện giao lưu và trao đổi kinh nghiệm với các nhà phát triển, kỹ sư Cloud và những người quan tâm đến AI.
+- **Định hướng nghề nghiệp:** Hiểu rõ hơn những kỹ năng kỹ thuật cần thiết trong lĩnh vực Cloud Computing và Artificial Intelligence.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+## 3. Nội dung chính của sự kiện
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+### 3.1. Keynote – Xu hướng Cloud Computing và Agentic AI
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Chương trình có các phiên keynote được phát trực tiếp từ sự kiện chính tại Hà Nội.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Nội dung tập trung vào vai trò của điện toán đám mây và trí tuệ nhân tạo trong việc hỗ trợ doanh nghiệp đổi mới công nghệ và phát triển sản phẩm.
 
-#### Domain-Driven Design (DDD)
+Các chủ đề nổi bật:
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Xu hướng phát triển của Cloud Computing.
+- Sự chuyển dịch từ Generative AI sang Agentic AI.
+- Ứng dụng AI Agents trong tự động hóa quy trình.
+- Hiện đại hóa ứng dụng và hệ thống doanh nghiệp.
+- Khả năng mở rộng và bảo mật của nền tảng Cloud.
 
-#### Event-Driven Architecture
+Đặc biệt, chương trình keynote tại Hà Nội có sự tham gia của **Dr. Werner Vogels – CTO của Amazon**, chia sẻ về các xu hướng phát triển hệ thống và ứng dụng công nghệ hiện đại.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### 3.2. Builders x AI – Phát triển phần mềm với Agentic AI
 
-#### Compute Evolution
+Một trong những nội dung nổi bật của Watch Party là các phiên chia sẻ kỹ thuật thuộc chủ đề **Builders x AI**.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Các phiên này tập trung vào việc ứng dụng AI trong quy trình phát triển phần mềm, giúp các nhà phát triển tiếp cận những phương pháp xây dựng ứng dụng hiện đại.
 
-#### Amazon Q Developer
+Những chủ đề kỹ thuật liên quan bao gồm:
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+**Generative AI**
 
-### Những Gì Học Được
+Công nghệ trí tuệ nhân tạo có khả năng tạo nội dung mới như văn bản, mã nguồn và các dạng dữ liệu khác.
 
-#### Tư Duy Thiết Kế
+**Agentic AI**
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+Cách tiếp cận xây dựng hệ thống AI có khả năng lập kế hoạch, sử dụng công cụ và thực hiện các nhiệm vụ gồm nhiều bước.
 
-#### Kiến Trúc Kỹ Thuật
+**AI-Assisted Software Development**
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+Ứng dụng trí tuệ nhân tạo để hỗ trợ lập trình, phân tích mã nguồn, kiểm thử và cải thiện quy trình phát triển phần mềm.
 
-#### Chiến Lược Hiện Đại Hóa
+**Cloud-Native Applications**
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+Phương pháp xây dựng các ứng dụng tận dụng khả năng mở rộng, triển khai linh hoạt và quản lý tài nguyên của nền tảng điện toán đám mây.
 
-### Ứng Dụng Vào Công Việc
+### 3.3. Ứng dụng AI trong hiện đại hóa hệ thống
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Một chủ đề quan trọng của sự kiện chính là việc ứng dụng AI và Cloud Computing để hỗ trợ hiện đại hóa hệ thống công nghệ thông tin.
 
-### Trải nghiệm trong event
+Các nội dung được giới thiệu trong chương trình bao gồm:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- Chuyển đổi ứng dụng và hạ tầng lên môi trường Cloud.
+- Ứng dụng AI trong phát triển phần mềm.
+- Sử dụng AI Agents để hỗ trợ các tác vụ phức tạp.
+- Xây dựng nền tảng dữ liệu phục vụ ứng dụng AI.
+- Tăng hiệu quả vận hành và tối ưu tài nguyên.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+### 3.4. Giao lưu và kết nối cộng đồng AWS tại TP.HCM
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+Bên cạnh việc theo dõi các phiên phát trực tiếp, Watch Party còn tạo cơ hội kết nối giữa những người quan tâm đến Cloud Computing và AI.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+Hoạt động giao lưu hướng đến:
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Chia sẻ kiến thức về các dịch vụ AWS.
+- Trao đổi kinh nghiệm học tập và phát triển ứng dụng.
+- Thảo luận về xu hướng AI và công nghệ Cloud.
+- Mở rộng kết nối với cộng đồng nhà phát triển tại TP.HCM.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+## 4. Kiến thức và giá trị thu nhận
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+Các chủ đề được giới thiệu trong chương trình mang lại nhiều kiến thức có giá trị về Cloud Computing và Artificial Intelligence.
+
+### 4.1. Hiểu rõ hơn về Agentic AI
+
+Agentic AI là một hướng phát triển quan trọng của trí tuệ nhân tạo, trong đó hệ thống có thể kết hợp mô hình ngôn ngữ với các công cụ và nguồn dữ liệu bên ngoài để giải quyết nhiệm vụ.
+
+Khác với các ứng dụng chatbot đơn giản, hệ thống AI Agent có thể được thiết kế để xử lý những quy trình gồm nhiều bước.
+
+### 4.2. Vai trò của Cloud Computing trong triển khai AI
+
+Điện toán đám mây cung cấp hạ tầng phục vụ quá trình phát triển, triển khai và vận hành các hệ thống AI.
+
+Thông qua các dịch vụ Cloud, doanh nghiệp có thể mở rộng tài nguyên theo nhu cầu, quản lý dữ liệu và tích hợp các thành phần ứng dụng.
+
+### 4.3. Tìm hiểu xu hướng phát triển phần mềm hiện đại
+
+AI đang ngày càng được tích hợp vào quy trình phát triển phần mềm nhằm hỗ trợ lập trình viên trong nhiều công việc.
+
+Việc sử dụng các công cụ AI hiệu quả đòi hỏi kỹ năng thiết kế hệ thống, đánh giá kết quả và kiểm soát chất lượng phần mềm.
+
+### 4.4. Nhận thức về tầm quan trọng của cộng đồng công nghệ
+
+Các hoạt động cộng đồng như AWS Watch Party tạo môi trường thuận lợi để cập nhật kiến thức, chia sẻ kinh nghiệm và tiếp cận góc nhìn thực tế từ những người đang làm việc trong ngành.
+
+## 5. Kết luận
+
+**AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** là một hoạt động có ý nghĩa đối với cộng đồng công nghệ tại TP. Hồ Chí Minh.
+
+Thông qua hình thức kết hợp giữa nội dung trực tuyến từ Hà Nội và giao lưu trực tiếp tại TP.HCM, chương trình mang đến cơ hội tiếp cận các xu hướng công nghệ mới trong lĩnh vực Cloud Computing, Generative AI và Agentic AI.
+
+Đặc biệt, những nội dung về AI Agents và phát triển phần mềm hiện đại góp phần làm rõ vai trò của trí tuệ nhân tạo trong việc thay đổi phương pháp xây dựng và vận hành hệ thống phần mềm.
+
+Sự kiện cũng cho thấy tầm quan trọng của việc liên tục cập nhật công nghệ, phát triển kỹ năng thực hành và tham gia các cộng đồng chuyên môn.
+
+
+## 6. Hình ảnh sự kiện
+
+### Hình ảnh tại AWS Cloud and AI Day 2026 – HCMC Watch Party
+
+![AWS Watch Party]({{< relURL "images/Event/AIday.jpg" >}})
+
+*Hình 1. AWS Cloud and AI Day 2026 Watch Party tại TP.HCM.*
+
+![Theo dõi các phiên chia sẻ kỹ thuật]({{< relURL "images/Event/AIday1.jpg" >}})
+
+*Hình 2. Theo dõi các phiên chia sẻ về Cloud Computing và Artificial Intelligence.*
+
+![Thẻ mời sự kiện]({{< relURL "images/Event/themoi.jpg" >}})
+
+*Hình 3. Thẻ mời sự kiện.*
