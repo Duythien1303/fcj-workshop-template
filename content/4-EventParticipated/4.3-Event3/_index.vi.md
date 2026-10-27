@@ -137,12 +137,13 @@ Thông qua các chủ đề về Cloud Computing, Artificial Intelligence, thi�
 
 Đặc biệt, cơ hội giao lưu với CTO của Amazon góp phần làm nổi bật tầm quan trọng của kiến thức nền tảng, tư duy kỹ thuật, khả năng học hỏi liên tục và định hướng phát triển lâu dài trong ngành công nghệ.
 
+
 ## 6. Hình ảnh sự kiện
 
-![Ảnh chụp nhóm với Dr. Werner]({{< relURL "images/Event/Fireside.jpg" >}})
+![Ảnh chụp nhóm với Dr. Werner](/fcj-workshop-template/images/Event/Fireside.jpg)
 
 *Hình 1. Ảnh chụp nhóm với Dr. Werner tại TP.HCM.*
 
-![ảnh chụp không gian sự kiện]({{< relURL "images/Event/Fireside1.jpg" >}})
+![Ảnh chụp không gian sự kiện](/fcj-workshop-template/images/Event/Fireside1.jpg)
 
 *Hình 2. Ảnh chụp không gian sự kiện.*
