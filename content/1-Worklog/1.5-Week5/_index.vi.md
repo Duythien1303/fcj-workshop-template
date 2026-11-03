@@ -16,9 +16,6 @@ pre: " <b> 1.5. </b> "
 - Tìm hiểu kỹ thuật Prompt Engineering và những phương pháp cải thiện chất lượng phản hồi của mô hình AI.
 - Nghiên cứu Retrieval-Augmented Generation (RAG), Embeddings, Vector Database và Knowledge Bases.
 - Tìm hiểu kiến trúc AI Agents và cách tích hợp các mô hình AI với API, công cụ và nguồn dữ liệu bên ngoài.
-- Tổng hợp kiến thức AWS đã nghiên cứu trong 5 tuần đầu tiên.
-- Xác định định hướng, mục tiêu và những công nghệ có thể sử dụng cho Project cuối kỳ thực tập.
-- Xây dựng kế hoạch nghiên cứu và triển khai Project trong 5 tuần tiếp theo.
 
 ### Các công việc cần triển khai trong tuần này
 
@@ -27,8 +24,8 @@ pre: " <b> 1.5. </b> "
 | 2 | - Tìm hiểu tổng quan về Generative AI và các ứng dụng trong thực tế. <br> - Nghiên cứu Large Language Models (LLMs) và Foundation Models. <br> - Tìm hiểu sự khác biệt giữa Traditional AI, Generative AI và Agentic AI. <br> - Nghiên cứu các trường hợp ứng dụng AI trong phát triển phần mềm, xử lý ngôn ngữ và tự động hóa. | 02/11/2026 | 02/11/2026 | [AWS Generative AI](https://aws.amazon.com/generative-ai/) |
 | 3 | - Tìm hiểu tổng quan về Amazon Bedrock và các khả năng chính của dịch vụ. <br> - Nghiên cứu cách Amazon Bedrock hỗ trợ truy cập Foundation Models. <br> - Tìm hiểu các khái niệm Model Inference, Tokens, Context Window và Model Parameters. <br> - Nghiên cứu Prompt Engineering và các phương pháp thiết kế Prompt. <br> - Tìm hiểu quy trình thử nghiệm và đánh giá phản hồi của mô hình AI. | 03/11/2026 | 03/11/2026 | [Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html) <br> [Prompt Engineering](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-prompt-engineering.html) |
 | 4 | - Tìm hiểu Retrieval-Augmented Generation (RAG) và vai trò của RAG trong ứng dụng Generative AI. <br> - Nghiên cứu Embeddings và Vector Database. <br> - Tìm hiểu Amazon Bedrock Knowledge Bases. <br> - Nghiên cứu quy trình thu thập dữ liệu, chia nhỏ tài liệu (Chunking), tìm kiếm thông tin và sinh phản hồi. <br> - Phân tích những ưu điểm và hạn chế của RAG trong các hệ thống AI. | 04/11/2026 | 04/11/2026 | [Amazon Bedrock Knowledge Bases](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html) |
-| 5 | - Tìm hiểu khái niệm AI Agents và Agentic AI. <br> - Nghiên cứu kiến trúc hệ thống AI Agent, bao gồm LLM, Tools, Memory và API. <br> - Tìm hiểu Amazon Bedrock Agents và cơ chế phối hợp giữa các thành phần. <br> - Nghiên cứu cách tích hợp AI Agents với AWS Lambda và các dịch vụ Backend. <br> - Khảo sát những ứng dụng AI có thể phát triển thành Project cuối kỳ thực tập. | 05/11/2026 | 05/11/2026 | [Amazon Bedrock Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) |
-| 6 | - Tổng hợp kiến thức Generative AI, Amazon Bedrock, RAG và AI Agents. <br> - Ôn tập các dịch vụ AWS đã nghiên cứu trong 5 tuần đầu. <br> - Phân tích các ý tưởng Project dựa trên kiến thức và kỹ năng hiện có. <br> - Xác định mục tiêu, phạm vi nghiên cứu và những yêu cầu cơ bản của Project cuối kỳ. <br> - Lập kế hoạch nghiên cứu, thiết kế, phát triển và kiểm thử Project trong 5 tuần tiếp theo. | 06/11/2026 | 06/11/2026 | [AWS Documentation](https://docs.aws.amazon.com/) <br> [AWS Workshops](https://catalog.workshops.aws/) |
+| 5 | - Tìm hiểu khái niệm AI Agents và Agentic AI. <br> - Nghiên cứu kiến trúc hệ thống AI Agent, bao gồm LLM, Tools, Memory và API. <br> - Tìm hiểu Amazon Bedrock Agents và cơ chế phối hợp giữa các thành phần. <br> - Nghiên cứu cách tích hợp AI Agents với AWS Lambda và các dịch vụ Backend. <br> - Tìm hiểu những trường hợp ứng dụng AI Agents trong thực tế. | 05/11/2026 | 05/11/2026 | [Amazon Bedrock Agents](https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html) |
+| 6 | - Tổng hợp kiến thức về Generative AI, Amazon Bedrock, RAG và AI Agents đã nghiên cứu trong tuần. <br> - So sánh Generative AI và Agentic AI về phương pháp hoạt động và khả năng ứng dụng. <br> - Nghiên cứu các phương pháp đánh giá chất lượng phản hồi của mô hình ngôn ngữ. <br> - Tìm hiểu những thách thức khi triển khai ứng dụng Generative AI như độ chính xác, độ trễ, bảo mật và chi phí. <br> - Hoàn thiện tài liệu ghi chú về các công nghệ Generative AI trên AWS. | 06/11/2026 | 06/11/2026 | [AWS Generative AI](https://aws.amazon.com/generative-ai/) <br> [AWS Documentation](https://docs.aws.amazon.com/) |
 
 ### Kết quả dự kiến đạt được tuần 5
 
@@ -148,57 +145,50 @@ pre: " <b> 1.5. </b> "
 - Tìm hiểu khả năng tích hợp AI Agents với các dịch vụ AWS và ứng dụng Backend.
 - Nhận thức được vai trò của kiểm soát quyền truy cập, đánh giá kết quả và giám sát hoạt động trong việc phát triển các hệ thống AI Agent.
 
-#### 7. Tổng hợp kiến thức AWS trong 5 tuần đầu
+#### 7. So sánh Generative AI và Agentic AI
 
-| Tuần | Chủ đề | Kiến thức trọng tâm |
+| Tiêu chí | Generative AI | Agentic AI |
 |---|---|---|
-| **Tuần 1** | AWS Fundamentals | Cloud Computing, AWS Services, Regions, Availability Zones |
-| **Tuần 2** | AWS Networking & Security | VPC, Subnet, Route Table, Security Group, IAM |
-| **Tuần 3** | AWS Storage & Database | Amazon S3, EBS, EFS, RDS, DynamoDB |
-| **Tuần 4** | AWS Serverless & Application Deployment | AWS Lambda, API Gateway, CloudWatch |
-| **Tuần 5** | Generative AI on AWS | Amazon Bedrock, LLMs, Prompt Engineering, RAG, AI Agents |
+| **Mục tiêu chính** | Tạo nội dung hoặc phản hồi dựa trên đầu vào | Thực hiện nhiệm vụ thông qua nhiều bước xử lý |
+| **Khả năng sử dụng công cụ** | Phụ thuộc vào cách ứng dụng được thiết kế | Thường tích hợp công cụ và API để thực hiện tác vụ |
+| **Phương thức hoạt động** | Xử lý yêu cầu và tạo kết quả | Có thể lập kế hoạch, lựa chọn công cụ và phối hợp các bước |
+| **Ứng dụng phổ biến** | Chatbot, tạo nội dung, tóm tắt văn bản | Trợ lý tự động hóa, xử lý quy trình và tích hợp hệ thống |
+| **Thách thức** | Độ chính xác, chất lượng đầu ra | Kiểm soát hành động, bảo mật, độ tin cậy và chi phí |
 
-Năm tuần đầu tiên được xây dựng nhằm tạo nền tảng kiến thức về điện toán đám mây, bảo mật, lưu trữ dữ liệu, phát triển ứng dụng Serverless và những công nghệ AI hiện đại.
+Thông qua việc so sánh, em hiểu rõ hơn sự khác biệt giữa các ứng dụng Generative AI truyền thống và những hệ thống Agentic AI có khả năng phối hợp nhiều công cụ để thực hiện nhiệm vụ.
 
-Các nội dung này có thể được sử dụng làm cơ sở để lựa chọn kiến trúc, công nghệ và phương pháp triển khai Project cuối kỳ thực tập.
+#### 8. Kiến thức về đánh giá và triển khai ứng dụng Generative AI
 
-#### 8. Chuẩn bị cho Project cuối kỳ thực tập
+- Tìm hiểu những yếu tố quan trọng cần xem xét khi đánh giá một ứng dụng Generative AI:
 
-- Khảo sát những ý tưởng Project phù hợp với kiến thức và kỹ năng đã tích lũy.
-- Xác định các yếu tố cần phân tích trước khi triển khai:
+  - **Response Quality:** Mức độ phù hợp và hữu ích của phản hồi.
 
-  - **Problem Definition:** Xác định vấn đề thực tế mà Project hướng đến giải quyết.
+  - **Accuracy:** Mức độ chính xác của thông tin được tạo ra.
 
-  - **Project Objectives:** Xây dựng các mục tiêu cụ thể và có thể đánh giá được.
+  - **Latency:** Thời gian hệ thống xử lý yêu cầu và trả về phản hồi.
 
-  - **Project Scope:** Xác định phạm vi chức năng và những giới hạn của Project.
+  - **Cost:** Chi phí liên quan đến việc sử dụng mô hình và các dịch vụ hỗ trợ.
 
-  - **Technology Stack:** Lựa chọn các công nghệ, thư viện, Framework và dịch vụ cần thiết.
+  - **Security:** Khả năng bảo vệ dữ liệu và kiểm soát quyền truy cập.
 
-  - **System Architecture:** Xây dựng kiến trúc tổng quan của hệ thống.
+  - **Reliability:** Khả năng duy trì hoạt động ổn định của hệ thống.
 
-  - **Evaluation Methods:** Lựa chọn các phương pháp kiểm thử và đánh giá kết quả.
-
-  - **Development Timeline:** Phân chia tiến độ nghiên cứu và phát triển cho từng tuần.
-
-- Xây dựng kế hoạch Project dự kiến:
-
-| Tuần | Giai đoạn | Nội dung |
-|---|---|---|
-| **Tuần 6** | Research & Problem Definition | Nghiên cứu đề tài, xác định bài toán và yêu cầu |
-| **Tuần 7** | System Design | Thiết kế kiến trúc và các thành phần chính |
-| **Tuần 8** | Implementation | Phát triển các chức năng cốt lõi |
-| **Tuần 9** | Testing & Optimization | Kiểm thử, đánh giá và cải thiện hệ thống |
-| **Tuần 10** | Final Demo & Documentation | Hoàn thiện sản phẩm, báo cáo và demo |
+- Tìm hiểu hiện tượng **Hallucination**, khi mô hình AI tạo ra những thông tin không chính xác hoặc không có căn cứ.
+- Nhận thức được vai trò của kiểm thử, đánh giá phản hồi và giám sát hoạt động trong quá trình xây dựng ứng dụng AI.
+- Hiểu được tầm quan trọng của việc lựa chọn mô hình, thiết kế Prompt và tổ chức nguồn dữ liệu phù hợp để cải thiện chất lượng hệ thống.
 
 #### 9. Tổng kết tuần 5
 
-Tuần thứ năm tập trung vào việc nghiên cứu các công nghệ Generative AI và khả năng ứng dụng trên nền tảng Amazon Web Services.
+Tuần thứ năm tập trung vào việc nghiên cứu các công nghệ **Generative AI và khả năng ứng dụng trên nền tảng Amazon Web Services**.
 
-Thông qua những nội dung về Large Language Models, Amazon Bedrock, Prompt Engineering, RAG và AI Agents, mục tiêu của tuần là xây dựng nền tảng kiến thức cần thiết để hiểu và lựa chọn những phương pháp phát triển ứng dụng AI hiện đại.
+Các nội dung trọng tâm bao gồm Large Language Models, Foundation Models, Amazon Bedrock, Prompt Engineering, Retrieval-Augmented Generation và AI Agents.
 
-Bên cạnh việc nghiên cứu các công nghệ mới, tuần 5 còn có vai trò tổng kết kiến thức AWS đã học trong bốn tuần trước, bao gồm Cloud Computing, Networking, Security, Storage, Database và Serverless Computing.
+Thông qua việc nghiên cứu những công nghệ này, mục tiêu của tuần là hiểu rõ hơn cách các mô hình trí tuệ nhân tạo có thể được tích hợp với dữ liệu, API và các công cụ bên ngoài để xây dựng những ứng dụng thông minh.
 
-Đây cũng là giai đoạn chuyển tiếp từ việc tìm hiểu công nghệ sang nghiên cứu và xây dựng Project cuối kỳ thực tập.
+Bên cạnh đó, việc tìm hiểu các kỹ thuật như Prompt Engineering và RAG giúp mở rộng kiến thức về những phương pháp nâng cao chất lượng phản hồi của mô hình ngôn ngữ.
 
-Kết quả mong đợi sau tuần này là xác định được hướng nghiên cứu, phạm vi, mục tiêu và kế hoạch thực hiện Project trong năm tuần tiếp theo, tạo tiền đề cho quá trình thiết kế, phát triển, kiểm thử và hoàn thiện sản phẩm.
+Nội dung nghiên cứu về Agentic AI cũng góp phần làm rõ cách các hệ thống AI có thể phối hợp nhiều thành phần để thực hiện những tác vụ phức tạp.
+
+Ngoài kiến thức kỹ thuật, tuần học còn tập trung vào các yếu tố quan trọng khi đánh giá và triển khai ứng dụng Generative AI, bao gồm độ chính xác, thời gian phản hồi, bảo mật, độ tin cậy và chi phí.
+
+Những nội dung này giúp xây dựng nền tảng kiến thức về Generative AI và các dịch vụ AI trên AWS, đồng thời nâng cao hiểu biết về xu hướng phát triển của các ứng dụng trí tuệ nhân tạo hiện đại.
