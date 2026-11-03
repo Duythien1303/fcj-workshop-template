@@ -19,11 +19,11 @@ pre: " <b> 1.1. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 |---|---|---|---|---|
-| 2 | - Tìm hiểu về chương trình thực tập First Cloud AI Journey (FCAJ). <br> - Xác định mục tiêu học tập trong 10 tuần. <br> - Lập kế hoạch nghiên cứu AWS Cloud Computing. | ... | ... | [AWS Skill Builder](https://skillbuilder.aws/) |
-| 3 | - Nghiên cứu khái niệm Cloud Computing. <br> - Tìm hiểu các mô hình dịch vụ IaaS, PaaS và SaaS. <br> - Phân biệt Public Cloud, Private Cloud và Hybrid Cloud. | ... | ... | [AWS Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/) |
-| 4 | - Tìm hiểu tổng quan nền tảng Amazon Web Services (AWS). <br> - Nghiên cứu các nhóm dịch vụ Compute, Storage, Database và Networking. <br> - Tìm hiểu cách các dịch vụ AWS được ứng dụng trong thực tế. | ... | ... | [AWS Documentation](https://docs.aws.amazon.com/) |
-| 5 | - Tìm hiểu cấu trúc hạ tầng toàn cầu của AWS. <br> - Phân biệt Region, Availability Zone và Edge Location. <br> - Nghiên cứu AWS Shared Responsibility Model. | ... | ... | [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) |
-| 6 | - Làm quen với AWS Management Console thông qua tài liệu hướng dẫn hoặc môi trường được cấp quyền. <br> - Tìm hiểu cách truy cập và quản lý các dịch vụ AWS. <br> - Tổng hợp kiến thức đã nghiên cứu trong tuần. <br> - Chuẩn bị nội dung tìm hiểu AWS Networking cho tuần 2. | ... | ... | [AWS Management Console](https://aws.amazon.com/console/) |
+| 2 | - Tìm hiểu về chương trình thực tập First Cloud AI Journey (FCAJ). <br> - Xác định mục tiêu học tập trong 10 tuần. <br> - Lập kế hoạch nghiên cứu AWS Cloud Computing. | 21/09/2026 | 21/09/2026 | [AWS Skill Builder](https://skillbuilder.aws/) |
+| 3 | - Nghiên cứu khái niệm Cloud Computing. <br> - Tìm hiểu các mô hình dịch vụ IaaS, PaaS và SaaS. <br> - Phân biệt Public Cloud, Private Cloud và Hybrid Cloud. | 22/09/2026 | 22/09/2026 | [AWS Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/) |
+| 4 | - Tìm hiểu tổng quan nền tảng Amazon Web Services (AWS). <br> - Nghiên cứu các nhóm dịch vụ Compute, Storage, Database và Networking. <br> - Tìm hiểu cách các dịch vụ AWS được ứng dụng trong thực tế. | 23/09/2026 | 23/09/2026 | [AWS Documentation](https://docs.aws.amazon.com/) |
+| 5 | - Tìm hiểu cấu trúc hạ tầng toàn cầu của AWS. <br> - Phân biệt Region, Availability Zone và Edge Location. <br> - Nghiên cứu AWS Shared Responsibility Model. | 24/09/2026 | 24/09/2026 | [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/) |
+| 6 | - Làm quen với AWS Management Console thông qua tài liệu hướng dẫn hoặc môi trường được cấp quyền. <br> - Tìm hiểu cách truy cập và quản lý các dịch vụ AWS. <br> - Tổng hợp kiến thức đã nghiên cứu trong tuần. <br> - Chuẩn bị nội dung tìm hiểu AWS Networking cho tuần 2. | 25/09/2026 | 25/09/2026 | [AWS Management Console](https://aws.amazon.com/console/) |
 
 ### Kết quả đạt được tuần 1
 
