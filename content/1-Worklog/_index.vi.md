@@ -6,24 +6,56 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-**Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
+### Giới thiệu
 
+Trong quá trình thực tập tại **First Cloud AI Journey (FCAJ)**, tôi có cơ hội tiếp cận, nghiên cứu và tìm hiểu những công nghệ liên quan đến điện toán đám mây (Cloud Computing), Amazon Web Services (AWS) và trí tuệ nhân tạo (Artificial Intelligence).
 
-Thông thường và cũng là tiêu chuẩn, một worklog được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
+Chương trình thực tập được xây dựng nhằm giúp sinh viên củng cố kiến thức chuyên môn, phát triển khả năng tự học và nghiên cứu, đồng thời làm quen với những công nghệ và quy trình được sử dụng trong môi trường làm việc thực tế.
 
-**Tuần 1:** [Làm quen với AWS và các dịch vụ cơ bản trong AWS](1.1-week1/)
+Các hoạt động thực tập bao gồm nghiên cứu tài liệu kỹ thuật, tìm hiểu những dịch vụ AWS, tham gia các hoạt động học tập và phát triển kỹ năng cần thiết cho công việc trong lĩnh vực công nghệ thông tin.
 
-**Tuần 2:** [Làm công việc A...](1.2-week2/)
+Nhật ký công việc được tổ chức theo từng tuần nhằm ghi lại nội dung nghiên cứu, các nhiệm vụ thực hiện và kết quả đạt được trong suốt quá trình thực tập.
 
-**Tuần 3:** [Làm công việc B...](1.3-week3/)
+### Nội dung công việc theo từng tuần
 
-**Tuần 4:** [Làm công việc C...](1.4-week4/)
+#### Giai đoạn 1: Nghiên cứu và tìm hiểu công nghệ AWS
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 1:** [Tìm hiểu tổng quan về Cloud Computing và Amazon Web Services (AWS)](1.1-week1/)
+
+- Làm quen với chương trình thực tập First Cloud AI Journey.
+- Tìm hiểu Cloud Computing, IaaS, PaaS và SaaS.
+- Nghiên cứu AWS Global Infrastructure và AWS Shared Responsibility Model.
+- Làm quen với AWS Management Console.
+
+**Tuần 2:** [Nghiên cứu AWS Networking & Security](1.2-week2/)
+
+- Tìm hiểu Amazon VPC, Subnet và Route Table.
+- Nghiên cứu Internet Gateway, Security Group và Network ACL.
+- Tìm hiểu AWS Identity and Access Management (IAM).
+- Nghiên cứu các nguyên tắc bảo mật và quản lý quyền truy cập.
+
+**Tuần 3:** [Nghiên cứu AWS Storage & Database](1.3-week3/)
+
+- Tìm hiểu Amazon S3, Amazon EBS và Amazon EFS.
+- Phân biệt Object Storage, Block Storage và File Storage.
+- Nghiên cứu Amazon RDS và Amazon DynamoDB.
+- Tìm hiểu các phương pháp bảo mật, sao lưu và quản lý dữ liệu.
+
+**Tuần 4:** [Nghiên cứu AWS Serverless & Application Deployment](1.4-week4/)
+
+- Tìm hiểu kiến trúc Serverless Computing.
+- Nghiên cứu AWS Lambda và Amazon API Gateway.
+- Tìm hiểu Amazon CloudWatch và các phương pháp giám sát ứng dụng.
+- Nghiên cứu quy trình thiết kế và triển khai ứng dụng Serverless.
+
+**Tuần 5:** [Nghiên cứu Generative AI trên AWS](1.5-week5/)
+
+- Tìm hiểu Generative AI, Large Language Models và Foundation Models.
+- Nghiên cứu Amazon Bedrock và Prompt Engineering.
+- Tìm hiểu Retrieval-Augmented Generation (RAG) và Knowledge Bases.
+- Nghiên cứu AI Agents và Agentic AI.
+- Tìm hiểu các phương pháp đánh giá và triển khai ứng dụng Generative AI.
 
 **Tuần 6:** [Làm công việc E...](1.6-week6/)
 
