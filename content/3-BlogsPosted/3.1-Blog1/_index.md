@@ -1,4 +1,4 @@
-```YALM
+```YAML
 title: "Blog 1"
 date: 2026-11-23
 weight: 1
