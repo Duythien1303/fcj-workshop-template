@@ -157,7 +157,9 @@ Hình ảnh dưới đây minh họa kiến trúc AWS CI/CD Pipeline tích hợp
   
   Hình 1 - AWS CI/CD Pipeline tích hợp DevSecOps để kiểm tra bảo mật trước khi triển khai Production
 
-  ![
+![Post AWS CI/CD Pipeline integrated with DevSecOps](/fcj-workshop-template/images/Post1.jpg)
+
+![Post AWS CI/CD Pipeline integrated with DevSecOps](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2347133266051632/?rdid=40vm5cPknrIOWyxp#)
 ### Tài liệu tham khảo (References)
 
 1. AWS CodePipeline: https://docs.aws.amazon.com/codepipeline/
