@@ -7,7 +7,7 @@ pre: " <b> 1.6. </b> "
 
 # Tuần 6: Nghiên cứu đề tài và xác định yêu cầu hệ thống
 
-**Thời gian:** 26/10/2026 – 26/10/2026  
+**Thời gian:** 26/10/2026 – 30/10/2026  
 **Trạng thái:** Bản nháp cần đối chiếu nhật ký thực tế
 
 **Lưu ý về tính xác thực:** Lịch theo từng ngày dưới đây là bản phân bổ biên tập dựa trên proposal và tiến độ chung, **chưa phải nhật ký công việc từng ngày đã được xác nhận**. Các nội dung mô tả kết quả không nhằm khẳng định đã hoàn thành toàn bộ chức năng trong đúng tuần này.
