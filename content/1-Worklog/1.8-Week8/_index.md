@@ -7,7 +7,7 @@ pre: " <b> 1.8. </b> "
 
 # Week 8: Core Edge Feature Development and Implementation
 
-**Duration:** 23/11/2026 – 27/11/2026  
+**Duration:** 09/11/2026 – 13/11/2026  
 **Status:** Draft requiring daily-log verification
 
 **Accuracy note:** The day-by-day schedule is an editorial allocation based on the proposal and overall progress, **not a verified daily work record**. Reported project capabilities are not proof that every item was completed in this exact week.
@@ -24,11 +24,11 @@ pre: " <b> 1.8. </b> "
 
 | Day | Task | Start Date | Completion Date | References |
 |---|---|---|---|---|
-| Monday | Review webcam/video processing, facial landmarks, and EAR/MAR outputs. | 23/11/2026 | 23/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
-| Tuesday | Investigate candidate models for eye-region detection and classification. | 24/11/2026 | 24/11/2026 | [Ultralytics](https://docs.ultralytics.com/), [Python](https://docs.python.org/3/) |
-| Wednesday | Integrate or check Open/Half-Open/Closed eye labels and left/right eye handling. | 25/11/2026 | 25/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
-| Thursday | Test neutral Head Pose, mouth/yawning states, and potential false alarms. | 26/11/2026 | 26/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
-| Friday | Review Backend analysis flow, CSV traces, test scenarios, and technical notes. | 27/11/2026 | 27/11/2026 | [FastAPI](https://fastapi.tiangolo.com/), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
+| Monday | Review webcam/video processing, facial landmarks, and EAR/MAR outputs. | 09/11/2026 | 09/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
+| Tuesday | Investigate candidate models for eye-region detection and classification. | 10/11/2026 | 10/11/2026 | [Ultralytics](https://docs.ultralytics.com/), [Python](https://docs.python.org/3/) |
+| Wednesday | Integrate or check Open/Half-Open/Closed eye labels and left/right eye handling. | 11/11/2026 | 11/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
+| Thursday | Test neutral Head Pose, mouth/yawning states, and potential false alarms. | 12/11/2026 | 12/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
+| Friday | Review Backend analysis flow, CSV traces, test scenarios, and technical notes. | 13/11/2026 |13/11/2026 | [FastAPI](https://fastapi.tiangolo.com/), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
 
 ## 3. Research Findings and Recorded Progress
 
