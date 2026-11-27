@@ -1,7 +1,6 @@
-
 ---
 title: "Blog 2"
-date: 2026-11-24
+date: 2026-11-3
 weight: 2
 ---
 
