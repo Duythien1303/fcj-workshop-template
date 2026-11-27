@@ -1,7 +1,7 @@
 ---
 title: "Blogs Posted"
 weight: 3
-chapter: true
+chapter: false
 pre: "<b> 3. </b>"
 ---
 
