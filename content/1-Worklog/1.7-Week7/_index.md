@@ -7,7 +7,7 @@ pre: " <b> 1.7. </b> "
 
 # Week 7: System Analysis and Architecture Design
 
-**Duration:** 16/11/2026 – 20/11/2026  
+**Duration:** 02/11/2026 – 02/11/2026  
 **Status:** Draft requiring daily-log verification
 
 **Accuracy note:** The day-by-day schedule is an editorial allocation based on the proposal and overall progress, **not a verified daily work record**. Reported project capabilities are not proof that every item was completed in this exact week.
@@ -24,11 +24,11 @@ pre: " <b> 1.7. </b> "
 
 | Day | Task | Start Date | Completion Date | References |
 |---|---|---|---|---|
-| Monday | Analyze the Edge AI data flow and conditions for generating events. | 16/11/2026 | 16/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [OpenCV](https://docs.opencv.org/4.x/) |
-| Tuesday | Define modules for feature extraction, temporal analysis, event metadata, and buffering. | 17/11/2026 | 17/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
-| Wednesday | Design HTTP API → Lambda Writer → DynamoDB metadata ingestion using event_id. | 18/11/2026 | 18/11/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
-| Thursday | Design Cognito/JWT authentication, Lambda Reader, and S3/CloudFront Dashboard delivery. | 19/11/2026 | 19/11/2026 | [Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Cloudfront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html) |
-| Friday | Review architecture, privacy, IAM, monitoring, and cost-control requirements. | 20/11/2026 | 20/11/2026 | [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
+| Monday | Analyze the Edge AI data flow and conditions for generating events. | 02/11/2026 | 02/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [OpenCV](https://docs.opencv.org/4.x/) |
+| Tuesday | Define modules for feature extraction, temporal analysis, event metadata, and buffering. | 03/11/2026 | 03/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
+| Wednesday | Design HTTP API → Lambda Writer → DynamoDB metadata ingestion using event_id. | 04/11/2026 | 04/11/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
+| Thursday | Design Cognito/JWT authentication, Lambda Reader, and S3/CloudFront Dashboard delivery. | 05/11/2026 | 05/11/2026 | [Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Cloudfront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html) |
+| Friday | Review architecture, privacy, IAM, monitoring, and cost-control requirements. | 06/11/2026 | 06/11/2026 | [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
 
 ## 3. Research Findings and Recorded Progress
 
