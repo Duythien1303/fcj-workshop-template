@@ -7,7 +7,7 @@ pre: " <b> 1.8. </b> "
 
 # Tuần 8: Phát triển các tính năng cốt lõi tại Edge
 
-**Thời gian:** 23/11/2026 – 27/11/2026  
+**Thời gian:** 09/11/2026 – 13/11/2026  
 **Trạng thái:** Bản nháp cần đối chiếu nhật ký thực tế
 
 **Lưu ý về tính xác thực:** Lịch theo từng ngày dưới đây là bản phân bổ biên tập dựa trên proposal và tiến độ chung, **chưa phải nhật ký công việc từng ngày đã được xác nhận**. Các nội dung mô tả kết quả không nhằm khẳng định đã hoàn thành toàn bộ chức năng trong đúng tuần này.
@@ -24,11 +24,11 @@ pre: " <b> 1.8. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 |---|---|---|---|---|
-| Thứ 2 | Rà soát pipeline webcam/video, phát hiện landmarks và đầu ra EAR/MAR. | 23/11/2026 | 23/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
-| Thứ 3 | Khảo sát và thử nghiệm các mô hình phát hiện/phân loại liên quan đến vùng mắt. | 24/11/2026 | 24/11/2026 | [Ultralytics](https://docs.ultralytics.com/), [Python](https://docs.python.org/3/) |
-| Thứ 4 | Tích hợp hoặc kiểm tra các trạng thái mắt Open/Half-Open/Closed và cách xử lý hai mắt. | 25/11/2026 | 25/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
-| Thứ 5 | Kiểm thử Head Pose trung tính, trạng thái miệng/ngáp và các trường hợp dễ cảnh báo nhầm. | 26/11/2026 | 26/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
-| Thứ 6 | Rà soát luồng phân tích Backend, dữ liệu CSV, kịch bản kiểm thử và tài liệu kỹ thuật. | 27/11/2026 | 27/11/2026 | [FastAPI](https://fastapi.tiangolo.com/), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
+| Thứ 2 | Rà soát pipeline webcam/video, phát hiện landmarks và đầu ra EAR/MAR. | 09/11/2026 | 09/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
+| Thứ 3 | Khảo sát và thử nghiệm các mô hình phát hiện/phân loại liên quan đến vùng mắt. | 10/11/2026 | 10/11/2026 | [Ultralytics](https://docs.ultralytics.com/), [Python](https://docs.python.org/3/) |
+| Thứ 4 | Tích hợp hoặc kiểm tra các trạng thái mắt Open/Half-Open/Closed và cách xử lý hai mắt. | 11/11/2026 | 1/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
+| Thứ 5 | Kiểm thử Head Pose trung tính, trạng thái miệng/ngáp và các trường hợp dễ cảnh báo nhầm. | 12/11/2026 | 12/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
+| Thứ 6 | Rà soát luồng phân tích Backend, dữ liệu CSV, kịch bản kiểm thử và tài liệu kỹ thuật. | 13/11/2026 | 13/11/2026 | [FastAPI](https://fastapi.tiangolo.com/), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
 
 ## 3. Kết quả đạt được và nội dung nghiên cứu
 
