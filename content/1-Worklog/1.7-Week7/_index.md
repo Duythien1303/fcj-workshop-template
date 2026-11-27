@@ -7,7 +7,7 @@ pre: " <b> 1.7. </b> "
 
 # Week 7: System Analysis and Architecture Design
 
-**Duration:** 02/11/2026 – 02/11/2026  
+**Duration:** 02/11/2026 – 06/11/2026  
 **Status:** Draft requiring daily-log verification
 
 **Accuracy note:** The day-by-day schedule is an editorial allocation based on the proposal and overall progress, **not a verified daily work record**. Reported project capabilities are not proof that every item was completed in this exact week.
