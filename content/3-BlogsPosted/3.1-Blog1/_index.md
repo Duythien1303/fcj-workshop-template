@@ -157,6 +157,8 @@ The image below illustrates an AWS CI/CD Pipeline architecture integrated with D
 
 Figure 1 - AWS CI/CD Pipeline integrated with DevSecOps for security checks before Production deployment
 
+![Post AWS CI/CD Pipeline integrated with DevSecOps](/fcj-workshop-template/images/Post1.jpg)
+ 
 ### References
 
 1. AWS CodePipeline: https://docs.aws.amazon.com/codepipeline/
