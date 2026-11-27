@@ -160,7 +160,6 @@ The image below illustrates an AWS CI/CD Pipeline architecture integrated with D
   <img src="/NguyenMinhPhuong_Workshop/images/aws-devsecops-cicd-pipeline.jpg" alt="AWS CI/CD Pipeline integrated with DevSecOps" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Figure 1 - AWS CI/CD Pipeline integrated with DevSecOps for security checks before Production deployment</em></p>
 </div>
-<img width="810" height="540" alt="image" src="https://github.com/user-attachments/assets/b51c19bb-0073-4a71-80ed-8832484cbc94" />
 
 ### References
 
