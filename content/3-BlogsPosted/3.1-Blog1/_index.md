@@ -153,7 +153,7 @@ As a result, organizations can identify vulnerabilities earlier, reduce potentia
 
 The image below illustrates an AWS CI/CD Pipeline architecture integrated with DevSecOps tools and services to perform security testing, monitoring, and control before deploying an application to the Production environment.
 
-![AWS CI/CD Pipeline integrated with DevSecOps](/fcj-workshop-template/static/images/Flowblog1.jpg)
+![AWS CI/CD Pipeline integrated with DevSecOps](/fcj-workshop-template/images/Flowblog1.jpg)
 
 Figure 1 - AWS CI/CD Pipeline integrated with DevSecOps for security checks before Production deployment
 
