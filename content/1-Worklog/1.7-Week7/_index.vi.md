@@ -7,7 +7,7 @@ pre: " <b> 1.7. </b> "
 
 # Tuần 7: Phân tích hệ thống và thiết kế kiến trúc
 
-**Thời gian:** 16/11/2026 – 20/11/2026  
+**Thời gian:** 02/11/2026 – 06/11/2026  
 **Trạng thái:** Bản nháp cần đối chiếu nhật ký thực tế
 
 **Lưu ý về tính xác thực:** Lịch theo từng ngày dưới đây là bản phân bổ biên tập dựa trên proposal và tiến độ chung, **chưa phải nhật ký công việc từng ngày đã được xác nhận**. Các nội dung mô tả kết quả không nhằm khẳng định đã hoàn thành toàn bộ chức năng trong đúng tuần này.
@@ -24,11 +24,11 @@ pre: " <b> 1.7. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 |---|---|---|---|---|
-| Thứ 2 | Phân tích luồng dữ liệu Edge AI và các điều kiện phát sinh sự kiện. | 16/11/2026 | 16/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [OpenCV](https://docs.opencv.org/4.x/) |
-| Thứ 3 | Phân chia module: feature extraction, temporal processing, event metadata và local buffer. | 17/11/2026 | 17/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
-| Thứ 4 | Thiết kế luồng ghi metadata qua HTTP API, Lambda Writer và DynamoDB với event_id. | 18/11/2026 | 18/11/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
-| Thứ 5 | Thiết kế xác thực Cognito/JWT, Lambda Reader và phân phối Dashboard qua S3/CloudFront. | 19/11/2026 | 19/11/2026 | [Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Cloudfront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html) |
-| Thứ 6 | Rà soát sơ đồ hệ thống, quyền riêng tư, IAM, giám sát và giới hạn chi phí. | 20/11/2026 | 20/11/2026 | [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
+| Thứ 2 | Phân tích luồng dữ liệu Edge AI và các điều kiện phát sinh sự kiện. | 02/11/2026 | 02/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [OpenCV](https://docs.opencv.org/4.x/) |
+| Thứ 3 | Phân chia module: feature extraction, temporal processing, event metadata và local buffer. | 03/11/2026 | 03/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
+| Thứ 4 | Thiết kế luồng ghi metadata qua HTTP API, Lambda Writer và DynamoDB với event_id. | 04/11/2026 | 04/11/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
+| Thứ 5 | Thiết kế xác thực Cognito/JWT, Lambda Reader và phân phối Dashboard qua S3/CloudFront. | 05/11/2026 | 05/11/2026 | [Cognito](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Cloudfront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html) |
+| Thứ 6 | Rà soát sơ đồ hệ thống, quyền riêng tư, IAM, giám sát và giới hạn chi phí. | 06/11/2026 | 06/11/2026 | [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html), [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
 
 ## 3. Kết quả đạt được và nội dung nghiên cứu
 
