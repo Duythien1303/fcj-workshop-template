@@ -7,7 +7,7 @@ pre: " <b> 1.9. </b> "
 
 # Week 9: System Integration and Testing
 
-**Duration:** 30/11/2026 – 04/12/2026  
+**Duration:** 16/11/2026 – 20/11/2026  
 **Status:** Planned work
 
 **Accuracy note:** This week is **after the drafting date (28 November 2026)**. All schedules and expected outcomes below are **plans, not completed work**.
@@ -24,11 +24,11 @@ pre: " <b> 1.9. </b> "
 
 | Day | Task | Start Date | Completion Date | References |
 |---|---|---|---|---|
-| Monday | Define event_id, timestamp, event type, and state in a consistent metadata schema. | 30/11/2026 | 30/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
-| Tuesday | Prototype or simulate Local Event Buffer and retry after failed submissions. | 01/12/2026 | 01/12/2026 | [Python](https://docs.python.org/3/), [pytest](https://docs.pytest.org/en/stable/) |
-| Wednesday | Test API Gateway → Lambda Event Writer → DynamoDB if AWS access is available. | 02/12/2026 | 02/12/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
-| Thursday | Test duplicate event_id, malformed payloads, network loss, and API permissions. | 03/12/2026 | 03/12/2026 | [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
-| Friday | Consolidate test cases, logs, and actual integration-status evidence. | 04/12/2026 | 04/12/2026 | [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [pytest](https://docs.pytest.org/en/stable/) |
+| Monday | Define event_id, timestamp, event type, and state in a consistent metadata schema. | 16/11/2026 | 16/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
+| Tuesday | Prototype or simulate Local Event Buffer and retry after failed submissions. | 17/11/2026 | 17/11/2026 | [Python](https://docs.python.org/3/), [pytest](https://docs.pytest.org/en/stable/) |
+| Wednesday | Test API Gateway → Lambda Event Writer → DynamoDB if AWS access is available. | 18/11/2026 | 18/11/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
+| Thursday | Test duplicate event_id, malformed payloads, network loss, and API permissions. | 19/11/2026 | 19/11/2026 | [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
+| Friday | Consolidate test cases, logs, and actual integration-status evidence. | 20/11/2026 | 20/11/2026 | [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [pytest](https://docs.pytest.org/en/stable/) |
 
 ## 3. Expected Outcomes and Planned Implementation
 
