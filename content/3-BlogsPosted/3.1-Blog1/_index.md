@@ -159,7 +159,7 @@ Figure 1 - AWS CI/CD Pipeline integrated with DevSecOps for security checks befo
 
 ![Post AWS CI/CD Pipeline integrated with DevSecOps](/fcj-workshop-template/images/Post1.jpg)
 
-![Post AWS CI/CD Pipeline integrated with DevSecOps](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2347133266051632/?rdid=40vm5cPknrIOWyxp#)
+[Post AWS CI/CD Pipeline integrated with DevSecOps](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2347133266051632/?rdid=40vm5cPknrIOWyxp#)
  
 ### References
 
