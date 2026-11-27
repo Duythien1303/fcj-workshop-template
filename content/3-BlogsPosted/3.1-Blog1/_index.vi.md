@@ -2,6 +2,7 @@
 title: "Blog 1"
 date: 2026-11-23
 weight: 1
+pre: "<b> 3.1. </b>"
 ---
 
 # XÂY DỰNG CI/CD PIPELINE TRÊN AWS: TÍCH HỢP DEVSECOPS ĐỂ KIỂM TRA BẢO MẬT TRƯỚC KHI TRIỂN KHAI PRODUCTION
