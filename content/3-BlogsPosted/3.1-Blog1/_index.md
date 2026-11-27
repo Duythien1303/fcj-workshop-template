@@ -1,11 +1,8 @@
----
+```YALM
 title: "Blog 1"
 date: 2026-11-23
 weight: 1
-chapter: false
-pre: "DIL0"
----
-
+```
 # BUILDING A CI/CD PIPELINE ON AWS: INTEGRATING DEVSECOPS TO PERFORM SECURITY CHECKS BEFORE PRODUCTION DEPLOYMENT
 
 In modern software development, deploying source code to a Production environment quickly is no longer enough. An application may function normally while still containing security vulnerabilities, unsafe third-party dependencies, or AWS configurations that have not been properly secured.
