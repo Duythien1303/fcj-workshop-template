@@ -2,6 +2,8 @@
 title: "Blog 2"
 date: 2026-11-3
 weight: 2
+chapter: false
+pre: "<b> 3.2. </b>"
 ---
 
 # AMAZON S3 – GIẢI PHÁP LƯU TRỮ VÀ BẢO MẬT DỮ LIỆU TRÊN AWS
