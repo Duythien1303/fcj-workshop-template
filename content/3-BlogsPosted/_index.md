@@ -2,6 +2,7 @@
 title: "Blogs Posted"
 weight: 3
 chapter: true
+pre: "<b> 3. </b>"
 ---
 
 ### [Blog 1 - Building a CI/CD Pipeline on AWS: Integrating DevSecOps Before Production Deployment](3.1-Blog1/)
