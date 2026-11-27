@@ -10,7 +10,6 @@ pre: " <b> 1.9. </b> "
 **Duration:** 16/11/2026 – 20/11/2026  
 **Status:** Planned work
 
-**Accuracy note:** This week is **after the drafting date (28 November 2026)**. All schedules and expected outcomes below are **plans, not completed work**.
 
 ## 1. Weekly Objectives
 
