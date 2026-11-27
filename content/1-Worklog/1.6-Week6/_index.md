@@ -7,7 +7,7 @@ pre: " <b> 1.6. </b> "
 
 # Week 6: Project Research and System Requirements Definition
 
-**Duration:** 26/10/2026 – 26/10/2026  
+**Duration:** 26/10/2026 – 30/10/2026  
 **Status:** Draft requiring daily-log verification
 
 **Accuracy note:** The day-by-day schedule is an editorial allocation based on the proposal and overall progress, **not a verified daily work record**. Reported project capabilities are not proof that every item was completed in this exact week.
