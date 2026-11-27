@@ -1,57 +1,75 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+# Week 9: System Integration and Testing
 
-### Week 9 Objectives:
+**Duration:** 30/11/2026 – 04/12/2026  
+**Status:** Planned work
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+**Accuracy note:** This week is **after the drafting date (28 November 2026)**. All schedules and expected outcomes below are **plans, not completed work**.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+## 1. Weekly Objectives
 
+- Complete the link between Edge analysis output and event metadata structure.
+- Prototype a Local Event Buffer/Retry mechanism if time and scope permit, including connectivity failures.
+- Design and test event ingestion, authorization, duplicate-safe storage, and history retrieval in an authorized AWS environment.
+- Standardize Backend tests for images, videos, and uncertain states.
+- Capture actual evidence and separate implemented functionality from design-only elements.
 
-### Week 9 Achievements:
+## 2. Weekly Work Schedule
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+| Day | Task | Start Date | Completion Date | References |
+|---|---|---|---|---|
+| Monday | Define event_id, timestamp, event type, and state in a consistent metadata schema. | 30/11/2026 | 30/11/2026 | [Python](https://docs.python.org/3/), [FastAPI](https://fastapi.tiangolo.com/) |
+| Tuesday | Prototype or simulate Local Event Buffer and retry after failed submissions. | 01/12/2026 | 01/12/2026 | [Python](https://docs.python.org/3/), [pytest](https://docs.pytest.org/en/stable/) |
+| Wednesday | Test API Gateway → Lambda Event Writer → DynamoDB if AWS access is available. | 02/12/2026 | 02/12/2026 | [API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html), [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html), [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html) |
+| Thursday | Test duplicate event_id, malformed payloads, network loss, and API permissions. | 03/12/2026 | 03/12/2026 | [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html), [JWT Authorizer](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html), [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/) |
+| Friday | Consolidate test cases, logs, and actual integration-status evidence. | 04/12/2026 | 04/12/2026 | [Cloudwatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html), [pytest](https://docs.pytest.org/en/stable/) |
 
-* Successfully created and configured an AWS Free Tier account.
+## 3. Expected Outcomes and Planned Implementation
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+### 3.1. Event Metadata Standardization Plan
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+Define an event schema with `event_id`, `timestamp`, `event_type`, `state`, and any permitted additional fields. Metadata requires clear types and validation rules; raw video must not be included.
 
-* Used AWS CLI to perform basic operations such as:
+Verify when event_id is created so retries for the same event do not become separate events.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+### 3.2. Local Event Buffer and Retry Plan
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Design a local queue for unsynchronized events; mark an event `synced` only after a successful server response. If the network fails, Edge analysis should continue while metadata remains queued for later submission.
+
+Planned test cases include pre-send outages, timeouts, repeated retries, application restart, and network recovery. This feature **must not be marked complete until validated**.
+
+### 3.3. AWS Backend Testing Plan
+
+In an authorized AWS environment, verify HTTP API, Lambda Writer, DynamoDB Conditional PutItem, Lambda Reader, and JWT Authorizer behavior. Test valid input, missing fields, repeated event_id, missing/invalid JWT, and unauthorized data access.
+
+If Cloud infrastructure is not deployed, describe the work as **architecture and test planning** rather than fabricating logs or outcomes.
+
+### 3.4. Image/Video Pipeline Tests
+
+Use consented recordings or a stationary webcam setup to compare image and video paths: face detection, missing landmarks, left/right eye disagreements, mouth events, and Head Pose variations. Check error handling, CSV traces, and stability over consecutive frames.
+
+The experimental system must not be presented as validated road-safety equipment.
+
+### 3.5. Expected Results and Acceptance Criteria
+
+Expected outputs include a consistent event schema, reproducible integration tests, logs/evidence for each scenario, and an issue list. Mark a capability complete only after successful execution and recorded evidence.
+
+**Status at the drafting date:** this is the Week 9 plan, not an achieved result.
+
+## 4. References
+
+1. [Python](https://docs.python.org/3/)
+2. [Fastapi](https://fastapi.tiangolo.com/)
+3. [Pytest](https://docs.pytest.org/en/stable/)
+4. [Apig](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html)
+5. [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+6. [Dynamo Cond](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html)
+7. [JWT](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-jwt-authorizer.html)
+8. [Fastapi Testing](https://fastapi.tiangolo.com/tutorial/testing/)
+
