@@ -2,6 +2,8 @@
 title: "Blog 3"
 date: 2026-11-23
 weight: 3
+chapter: false
+pre: "<b> 3.3. </b>"
 ---
 
 # AMAZON EVENTBRIDGE SCHEDULER – A SMALL BUT POWERFUL SERVICE FOR AWS PROJECTS
