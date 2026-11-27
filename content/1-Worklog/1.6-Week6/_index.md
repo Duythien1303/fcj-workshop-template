@@ -7,7 +7,7 @@ pre: " <b> 1.6. </b> "
 
 # Week 6: Project Research and System Requirements Definition
 
-**Duration:** 09/11/2026 – 13/11/2026  
+**Duration:** 26/10/2026 – 26/10/2026  
 **Status:** Draft requiring daily-log verification
 
 **Accuracy note:** The day-by-day schedule is an editorial allocation based on the proposal and overall progress, **not a verified daily work record**. Reported project capabilities are not proof that every item was completed in this exact week.
@@ -24,11 +24,11 @@ pre: " <b> 1.6. </b> "
 
 | Day | Task | Start Date | Completion Date | References |
 |---|---|---|---|---|
-| Monday | Study the road-safety context and frame the problem of detecting observable drowsiness/distraction-related behaviors. | 09/11/2026 | 09/11/2026 | [Safety](https://www.nhtsa.gov/risky-driving/drowsy-driving) |
-| Tuesday | Review webcam frame acquisition, image processing, and facial landmark detection. | 10/11/2026 | 10/11/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
-| Wednesday | Study EAR, MAR, Head Pose, Gaze, and the importance of temporal analysis. | 11/11/2026 | 11/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
-| Thursday | Draft functional and non-functional requirements and define permissible cloud event metadata. | 12/11/2026 | 12/11/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) |
-| Friday | Consolidate research scope, proposed test cases, and questions to resolve in system design. | 13/11/2026 | 13/11/2026 | [Safety](https://www.nhtsa.gov/risky-driving/drowsy-driving), [OpenCV](https://docs.opencv.org/4.x/) |
+| Monday | Study the road-safety context and frame the problem of detecting observable drowsiness/distraction-related behaviors. | 26/10/2026 | 26/10/2026 | [Safety](https://www.nhtsa.gov/risky-driving/drowsy-driving) |
+| Tuesday | Review webcam frame acquisition, image processing, and facial landmark detection. | 27/10/2026 | 27/10/2026 | [OpenCV](https://docs.opencv.org/4.x/), [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) |
+| Wednesday | Study EAR, MAR, Head Pose, Gaze, and the importance of temporal analysis. | 28/10/2026 | 28/10/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [Python](https://docs.python.org/3/) |
+| Thursday | Draft functional and non-functional requirements and define permissible cloud event metadata. | 29/10/2026 | 29/10/2026 | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker), [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) |
+| Friday | Consolidate research scope, proposed test cases, and questions to resolve in system design. | 30/10/2026 | 30/10/2026 | [Safety](https://www.nhtsa.gov/risky-driving/drowsy-driving), [OpenCV](https://docs.opencv.org/4.x/) |
 
 ## 3. Research Findings and Recorded Progress
 
