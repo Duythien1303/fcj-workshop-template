@@ -10,8 +10,6 @@ pre: " <b> 1.9. </b> "
 **Thời gian:** 16/11/2026 – 20/11/2026  
 **Trạng thái:** Kế hoạch dự kiến
 
-**Lưu ý về tính xác thực:** Tuần này nằm **sau ngày soạn (28/11/2026)**. Toàn bộ lịch và kết quả bên dưới là **kế hoạch dự kiến**, không phải công việc đã hoàn thành.
-
 ## 1. Mục tiêu tuần
 
 - Hoàn thiện kết nối giữa kết quả phân tích tại Edge và cấu trúc metadata sự kiện.
