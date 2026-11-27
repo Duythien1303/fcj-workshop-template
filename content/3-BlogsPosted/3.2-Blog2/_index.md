@@ -1,8 +1,9 @@
-
 ---
 title: "Blog 2"
 date: 2026-11-3
 weight: 2
+chapter: false
+pre: "<b> 3.2. </b>"
 ---
 
 # AMAZON S3 – A STORAGE AND DATA SECURITY SOLUTION ON AWS
