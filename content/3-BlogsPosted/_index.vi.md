@@ -1,22 +1,18 @@
 ---
-title: "Các bài blogs đã đăng"
-date: 2024-01-01
+title: "Các bài viết Blog"
 weight: 3
-chapter: false
-pre: " <b> 3. </b> "
+chapter: true
+pre: "<b> 3. </b>"
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### [Blog 1 - Xây dựng CI/CD Pipeline trên AWS: Tích hợp DevSecOps để kiểm tra bảo mật trước khi triển khai Production](3.1-Blog1/)
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+Bài viết trình bày cách xây dựng CI/CD Pipeline trên AWS kết hợp với DevSecOps nhằm tăng cường bảo mật cho ứng dụng trước khi triển khai lên môi trường Production. Nội dung giới thiệu các dịch vụ AWS chính được sử dụng, mô tả các giai đoạn kiểm thử bảo mật bao gồm SCA, SAST, DAST và IAST. Đồng thời, bài viết làm rõ vai trò của việc tự động hóa kiểm tra bảo mật, giám sát hệ thống và phê duyệt thủ công trong việc phát hiện sớm các lỗ hổng, giúp quá trình phát hành phần mềm an toàn hơn.
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Amazon S3: Giải pháp lưu trữ và bảo mật dữ liệu trên AWS](3.2-Blog2/)
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Bài viết giới thiệu Amazon S3, dịch vụ lưu trữ đối tượng được cung cấp bởi AWS. Nội dung tập trung vào các khái niệm cơ bản như Bucket, Object và Object Key, cùng với tám lớp lưu trữ S3 và những trường hợp sử dụng phổ biến. Bên cạnh đó, bài viết còn trình bày các tính năng quan trọng như Versioning, Lifecycle Rules, Encryption và Block Public Access, cũng như cách Amazon S3 hỗ trợ lưu trữ và quản lý dữ liệu trong kiến trúc Data & Machine Learning.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 3 - Amazon EventBridge Scheduler: Một dịch vụ nhỏ nhưng có võ khi xây dựng Project trên AWS](3.3-Blog3/)
+
+Bài viết giới thiệu Amazon EventBridge Scheduler, một dịch vụ lập lịch Serverless cho phép ứng dụng tự động kích hoạt các dịch vụ AWS tại thời điểm xác định hoặc theo chu kỳ. Nội dung trình bày các kiểu lập lịch One-time, Rate-based và Cron-based, cùng những tính năng hữu ích như Retry Policy, Dead-letter Queue (DLQ), Flexible Time Window và hỗ trợ múi giờ. Bài viết cũng hướng dẫn cách sử dụng EventBridge Scheduler để tự động gọi AWS Lambda mỗi 30 phút, giúp giảm công việc quản lý máy chủ và đơn giản hóa quá trình tự động hóa trong các project trên AWS.
